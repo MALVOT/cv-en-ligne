@@ -31,6 +31,18 @@ header{
 img:hover{
     cursor:zoom-in ;
 }
+address{
+    display: flex;
+    justify-content: space-around;
+    width: 1160px;
+    background-color: black;
+}
+a {color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
 h2{
     color: black;
     background-color: wheat;
@@ -56,18 +68,6 @@ p{
     font-weight: 100;
     font-style: normal;
 }
-address{
-    display: flex;
-    justify-content: space-around;
-    width: 1160px;
-    background-color: black;
-}
-a {color: white;
-    text-decoration: none;
-}
-a:hover{
-    text-decoration: underline;
-}
 main{
     display: flex;
     flex-direction: row-reverse;
@@ -86,7 +86,8 @@ main{
     color: white;
 }
 .indentation{
-    text-indent: 30%;
+    text-indent: 20%;
+    padding: 20px;
 }
 footer {
 height: 80px;
