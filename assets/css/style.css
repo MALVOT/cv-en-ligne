@@ -9,7 +9,7 @@
 }
 body{
     max-width: 1160px;
-    border: solid;
+    margin: 0px 0px 0px 347px
 }
 header{
            display: flex;
@@ -22,13 +22,13 @@ header{
         color: white;
         height: 400px;
     }
-    img{
+    img.logo1{
     border-radius: 50%;
     box-shadow: 0px 0px 10px 10px white;
     width: 150px;
     height: 150px;
 }
-img:hover{
+img.logo1:hover{
     cursor:zoom-in ;
 }
 address{
@@ -49,14 +49,15 @@ h2{
     font-family: "Lato", sans-serif;
     font-weight: 800;
     font-style: normal;
-  }
-h2:hover{
-    border-right: 6px solid #6D071A;
+    border-left: 6px solid #6D071A;
 }
 h3{
     font-family: "Raleway", sans-serif;
     font-weight: 600;
     font-style: normal;
+}
+h3:hover{
+    border-right: 6px solid #6D071A;
 }
 ul{
     font-family: "Raleway", sans-serif;
@@ -78,6 +79,7 @@ main{
     width: 300%;
     padding-right: 105px;
     padding-left: 50px;
+    border-right: 3px solid black;
 }
 .element2{
     box-sizing: border-box;
@@ -100,6 +102,27 @@ flex-wrap: wrap;
 background-color: #782221;
 color: white;
 }
-.logo:hover{
+img.logo2{
+    max-width: 40px;
+    max-height: 40px;
+}
+img.logo3{
+    max-width: 40px;
+    max-height: 40px;
+}
+img.logo4{
+    max-width: 40px;
+    max-height: 40px;
+}
+img.logo2:hover{
     opacity: 65%;
+   }
+   img.logo3:hover{
+    opacity: 65%;
+   }
+   img.logo4:hover{
+    opacity: 65%;
+   }
+   li:hover{
+    border-right: 6px solid #6D071A;
    }
